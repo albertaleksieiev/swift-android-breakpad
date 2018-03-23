@@ -1,4 +1,4 @@
-module breakpad[system] {
+module Breakpad[system] {
   header "include/breakpad.h"
   link "breakpad"
   export *

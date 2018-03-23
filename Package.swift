@@ -4,4 +4,15 @@
 
 import PackageDescription
 
-let package = Package(name: "breakpad")
+let package = Package(
+
+	name: "Breakpad",
+	products:[
+        .library(
+            name: "Breakpad", 
+            targets:["Breakpade"]
+        )
+    ],
+    swiftLanguageVersions: [4]
+
+)
