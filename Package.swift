@@ -10,7 +10,7 @@ let package = Package(
 	products:[
         .library(
             name: "Breakpad", 
-            targets:["Breakpade"]
+            targets:["Breakpad"]
         )
     ],
     swiftLanguageVersions: [4]
