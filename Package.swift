@@ -7,12 +7,15 @@ import PackageDescription
 let package = Package(
 
 	name: "Breakpad",
-	products:[
+	/*products:[
         .library(
             name: "Breakpad", 
             targets:["Breakpad"]
         )
     ],
+    targets: [
+        .target(name: "AnyCodable", path: "Sources"),
+    ],*/
     swiftLanguageVersions: [4]
 
 )
